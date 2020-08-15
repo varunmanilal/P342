@@ -25,8 +25,9 @@ for i in range(len(A)):
 
 print("THe sum of two matrices A+B is : ",C)
 ##A.B
+D=0
 for i in range(len(A)):
     for j in range(len(A[0])):
-        C[i][j] = A[i][j]*B[i][j]
+        D += A[i][j]*B[i][j]
 
-print("The dot product of two matrices A.B is: ",C)
+print("The dot product of two matrices A.B is: ",D)
