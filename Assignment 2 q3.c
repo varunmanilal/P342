@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>
+
 int main(){
 	FILE *A;
 	//Reading Matrix M from text file
@@ -57,6 +57,9 @@ int main(){
 		i++;
 	}
 	//printing M*N
+	//18.000000 45.000000 26.400000
+	//48.000000 112.500000 81.000000
+	//78.000000 180.000000 135.600006
 	for(i=0; i<3; i++) {
       for(j=0;j<3;j++) {
          	printf("%f ", matC[i][j]);
@@ -84,6 +87,7 @@ int main(){
 		i++;
 	}
 	//printing M*A
+	//31.700001 81.800003 131.900009
 	for(i=0; i<3; i++) {
       for(j=0;j<1;j++) {
          	printf("%f ", matD[i][j]);
